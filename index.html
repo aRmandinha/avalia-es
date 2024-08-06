@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Teste</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1 class="titulo-principal">PIRATAS DO CARIBE: Navegando em Águas Misteriosas</h1>
+
+        <div class="banner">
+            <img src="https://th.bing.com/th/id/OIP.vhcr9TWmIxIEammCVQlUUwHaLH?rs=1&pid=ImgDetMain">
+
+        </div>
+        
+        <div class="elenco">
+            <h2 class="titulo-elenco">ELENCO</h2>
+            
+            <div class="atores"> 
+                <div class="ator"> 
+                    <img src="https://th.bing.com/th?id=OIF.doK3%2fj2NsYr8i2mYA0rFdw&w=115&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Johnny Depp" class="ator">
+                    <p> Johnny Depp </p>
+                
+            </div>
+            <div class="ator">
+                <img src="https://th.bing.com/th/id/OIP.q9ShYrVboR6lfb-OweVjpwHaLH?w=202&h=303&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Penélope Cruz" class="ator">
+                <p> Penélope Cruz </p>
+                
+            </div>
+            <div class="ator">
+                <img src="https://th.bing.com/th/id/OIP.V_9qOktygqMlbYMBRrlgPAHaK_?w=202&h=300&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Geoffrey Rush" class="ator">
+                <p> Geoffrey Rush </p>
+
+            </div>
+            <div class="ator">
+                <img src="https://th.bing.com/th/id/OIP.YTlAjCLUKJXS2Gs5zdDXUwHaLH?w=202&h=303&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Ian McShane" class="ator">
+                <p> Ian McShane </p>
+                
+            </div>
+                
+            </div>
+            
+        </div>
+        <h2 class="titulo-elenco">SINOPSE</h2>
+
+        SINOPSE
+
+        <p>"Piratas do Caribe: Navegando em Águas Misteriosas" é o quarto filme da franquia "Piratas do Caribe" e foi lançado em 2011. A história segue o Capitão Jack Sparrow, interpretado por Johnny Depp, em uma nova aventura cheia de ação e mistério. Jack se vê envolvido em uma caça ao mítico Elixir da Juventude e encontra-se frente a frente com uma série de perigos e traições.</p>
+
+        <p>O filme começa com Jack Sparrow sendo capturado por uma nova ameaça, o temível Barba Negra (interpretado por Ian McShane). Para escapar de Barba Negra e obter o elixir, Jack se une a uma antiga paixão, Angelica (interpretada por Penélope Cruz), que tem seus próprios planos para o elixir. Juntos, eles navegam por mares desconhecidos, enfrentando piratas rivais, monstros marinhos e outros desafios sobrenaturais.</p>
+
+        <p> longo da trama, Jack se vê em uma corrida contra o tempo, onde segredos do passado e novas alianças colocam sua astúcia e coragem à prova. O filme combina elementos de comédia, ação e fantasia, mantendo o espírito aventureiro característico da série.</p>
+
+     <div.class="avaliacoes">
+        <h2> Avaliações da crítica </h2>
+        <div class="site">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Rotten_Tomatoes_logo.svg/1280px-Rotten_Tomatoes_logo.svg.png">
+            <p>33%</p>
+        </div>
+
+        <div class="site">
+           <img src="https://seeklogo.com/images/I/imdb-logo-1CD1CCD432-seeklogo.com.png">
+           <p>6,6</p>
+       </div>
+
+       <div class="site">
+           <img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Metacritic_M.png">
+           <p>6.2</p>
+       </div>
+     </div>
+
+    </div>
+
+</div>
+    
+</body>
+</html>
+
+
+
+CODIGO DO CSS
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body{
+    font-family: indie flower, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgb(73, 58, 187);
+
+}
+
+.titulo-principal{
+    font-family: jaqua 24 charted, serif;
+    text-align: center;
+
+}
+
+.titulo{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.banner{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.banner img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 50;
+    box-shadow: 0 0 10px black;
+}
+
+.atores{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.ator{ text-align: center;
+
+}
+
+.ator img{
+    width: 100;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    transition: transform 0.3s ease;
+}
+
+.ator:hover img{
+    transform: scale(1.1);
+}
+
+.titulo-sinopse{
+    font-size: 50px;
+}
+
+.sinopse{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 30px;
+}
+
+.site{
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+}
+
+.site img{
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.avaliacoes{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 4px 4px 10px rgb(10, 10, 10);
+    border-radius: 10px;
+    vertical-align: baseline;
+    align-items: center;
+}
